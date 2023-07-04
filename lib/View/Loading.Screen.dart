@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 import 'dart:async';
 
 class LoadingScreen extends StatelessWidget {
-  
   const LoadingScreen({super.key});
 
   @override
@@ -18,10 +17,10 @@ class LoadingScreen extends StatelessWidget {
           child: Container(
             width: Get.width * 0.5,
             height: Get.width * 0.5,
-            child: Image(
-              fit: BoxFit.cover,
-              image:AssetImage('images/wallet.png')
-            ),
+            child:
+                Image(fit: BoxFit.cover, image: AssetImage('images/wallet.png')
+                    // Gemastik
+                    ),
           ),
         ));
   }
